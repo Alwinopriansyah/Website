@@ -1,0 +1,35 @@
+nama db         : pemrogramanweb 
+user db         : root (pemrogramanweb)
+password db     : '' 
+server db       : localhost
+
+tbl_datadiri 
+tbl_organisasi 
+tbl_keahlian 
+tbl_galery 
+
+
+tbl_datadiri 
+- id_datadiri   -> integer - 5          (A_I, primary)
+- nama          -> varchar - 30
+- no hp         -> varchar - 15
+- email         -> varchar - 30
+- deskripsi     -> varchar - 128
+- sandi         -> varchar - 25 
+
+tbl_organisasi 
+- id_organisasi     -> integer - 5          (A_I, primary)
+- nama_organisasi   -> varchar - 30
+_ jabatan           -> varchar - 35
+- periode           -> varchar - 10
+- deskripsi         -> varchar - 128
+
+tbl_keahlian 
+- id_keahlian       -> integer - 5           (A_I, primary)
+- nama_skill        -> varchar - 25
+
+tbl_galery 
+- id_galery         -> integer - 5          (A_I, primary)
+- tahun_galery       -> year
+- label             -> varchar - 15
+- gambar            -> varchar - 50
